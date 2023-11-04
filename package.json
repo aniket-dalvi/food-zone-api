@@ -1,0 +1,21 @@
+{
+  "name": "food-zone-api",
+  "version": "1.0.0",
+  "description": "food places listing services",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aniketdalvi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.11.0",
+    "http-status": "^1.7.3",
+    "joi": "^17.11.0"
+  }
+}
